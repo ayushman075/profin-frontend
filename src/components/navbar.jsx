@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="bg-white shadow-md fixed w-full top-0 z-50">
       <div className="relative flex justify-between items-center p-4">
         {/* Logo on the left */}
-        <div className="text-green-500 font-bold text-4xl transition duration-300 transform hover:text-amber-600 hover:scale-110">Profin<></></div>
+        <div className="text-pColor font-bold text-4xl transition duration-300 transform hover:text-sColor hover:scale-110">Profin<></></div>
 
         {/* Profile and Notification always visible */}
         <div className="flex items-center space-x-4">
