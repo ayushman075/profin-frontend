@@ -1,4 +1,4 @@
-import DataTable from "@/components/dataTable";
+
 import {
   HoverCard,
   HoverCardContent,
@@ -14,6 +14,8 @@ import {
     //MenubarShortcut,
     MenubarTrigger,
   } from "@/components/ui/menubar"
+import DemoPage from "@/components/profTable/page";
+
   
 
 function AdminDashboard() {
@@ -21,7 +23,7 @@ function AdminDashboard() {
       <>
           <div className="pt-20 m-1 w-full"></div>
           <div className="w-full h-screen flex justify-center">
-              <div className="w-full h-screen flex-col bg-slate-200 border-x-8 border-white rounded-3xl">
+              <div className="w-full h-auto flex-col bg-slate-200 border-x-8 border-white rounded-3xl">
                   <div className="flex justify-between items-center">
                       <div className="text-xl md:text-4xl text-zinc-800 font-semibold p-10 from-accent-foreground">
                           Dashboard
@@ -105,10 +107,11 @@ function AdminDashboard() {
                     </Menubar>
                   </div>
                   <div className="my-5 flex justify-center">
-                  <DataTable/>
                   </div>
+                  <div><DemoPage/></div>
               </div>
           </div>
+   
       </>
   );
 }
