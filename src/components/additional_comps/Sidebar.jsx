@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 const Sidebar = () => {
   return (
-    <aside className="bg-primaryGreen w-64 p-6 sticky top-16 text-black flex flex-col">
+    <aside className="bg-primaryGreen hll w-64 p-6 sticky top-16 text-black flex flex-col">
       <h2 className="text-2xl font-bold mb-8">Professor Dashboard</h2>
       <nav className="flex flex-col space-y-4">
         <a href="#profile" className="hover:text-accentYellow hover:bg-yellow-200 p-3 rounded-xl text-lg">Profile</a>
